@@ -1,0 +1,81 @@
+body {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'MedievalSharp', cursive;
+    background: url("https://images.pexels.com/photos/12365978/pexels-photo-12365978.jpeg?auto=compress&cs=tinysrgb&w=600");
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 100vh;
+    text-align: center;
+}
+
+header {
+    background-color: rgba(34, 34, 37, 0.3);
+    font-size: 25px;
+    padding: 5px;
+    color: rgba(117, 208, 208, 0.8);
+    text-shadow: 2px 2px rgb(103, 108, 108);
+}
+
+.scoreboard {
+    padding: 10px;
+    color: #ccc;
+    text-shadow: 0px 5px 5px #000000;
+}
+
+.scoreboard h2 {
+    font-size: 25px;
+
+}
+
+.scores-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    max-width: 500px;
+    margin: 0 auto;
+    padding: 10px;
+    font-weight: 700;
+}
+
+.score-box {
+    font-size: 25px;
+    font-weight: 600;
+}
+
+img {
+    height: 170px;
+    padding: 20px;
+    box-shadow: 0px 6px 5px #434040;
+    border-radius: 10px;
+}
+
+.buttons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 25px;
+    margin: 0
+}
+
+footer {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: rgb(50, 52, 50);
+    gap: 10px;
+    width: 100%;
+    padding: 10px;
+    font-size: 20px;
+
+}
+
+
+
+
+
